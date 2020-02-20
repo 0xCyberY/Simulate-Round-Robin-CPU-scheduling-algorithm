@@ -1,0 +1,15 @@
+Enter the no of processes:5
+Enter the time quantum:2
+enter burst  time for process 1:10
+enter burst  time for process 2:23
+enter burst  time for process 3:54
+enter burst  time for process 4:15
+enter burst  time for process 5:23
+Process_no       Burst time     Wait time       Turn around time
+1       10      32      42
+2       23      69      92
+3       54      71      125
+4       15      56      71
+5       23      72      95
+average waiting time=60.000000
+average waiting time=85.000000
