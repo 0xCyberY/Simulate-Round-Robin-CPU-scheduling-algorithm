@@ -1,0 +1,2 @@
+# Simulate-Round-Robin-CPU-scheduling-algorithm
+In Round Robin Scheduling, CPU is assigned to the process on the basis of FCFS for a fixed amount of time. This fixed amount of time is called as time quantum or time slice. After the time quantum expires, the running process is preempted and sent to the ready queue. Then, the processor is assigned to the next arrived process. It is always preemptive in nature.
