@@ -1,0 +1,17 @@
+Step 1: Start the program
+Step 2: Accept the number of processes in the ready queue
+Step 3: For each process in the ready queue, assign the process id and accept the CPU burst time
+Step 4: Declare an array remaining burst time to keep track of remaining burst time of processes. This array is initially a  copy of burst times array.
+Step 5:  Set the waiting of the first process as ‘0’ and its burst time as its turn around time
+Step 6: Keep traversing the all processes while all processes are not done. Do following for i'th process if it is not done yet.
+    a) If remaining burst time(i) > quantum
+       (i)  waiting time(i) = waiting time[i] + quantum
+       (ii) remaining burst time(i) -= quantum;
+    b) Else // Last cycle for this process
+       (i) waiting time (i) = waiting time (i)  + remaining burst time(i);
+       (ii) waiting time (i)  = waiting time (i)  - burst time(i)
+       (ii) remaining burst time(i) = 0; 
+Step 7: Calculate
+(g) Average Waiting time = Total Waiting Time / Number of process
+(h) Average Turnaround time = Total Turnaround Time / Number of process
+Step 8: Stop the program
